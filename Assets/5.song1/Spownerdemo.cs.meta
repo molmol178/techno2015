@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4918d4418335741989cce681aff94a74
+timeCreated: 1446408757
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - A: {fileID: 485982, guid: e90fe2da60bb74a59b32be737c648067, type: 2}
+  - S: {fileID: 476016, guid: 267e230dae6a0435da0e63a85dcf18a0, type: 2}
+  - D: {fileID: 485982, guid: 8fdf5224e7d6b4e89a0419d47423b26c, type: 2}
+  - F: {fileID: 464024, guid: 60c3c8f18b7774f23abecce1c79bf4ca, type: 2}
+  - G: {fileID: 485982, guid: 17dd8eb11eec543dbacd22ac147444f0, type: 2}
+  - H: {fileID: 427322, guid: 232c864401f0b410f91942e906c627ec, type: 2}
+  - J: {fileID: 485982, guid: 50cca7ab9757443b4b2fdb317f1da5de, type: 2}
+  - K: {fileID: 485868, guid: 1529ea68874164bc1a799649e823bb7e, type: 2}
+  - Sound: {fileID: 402790, guid: 022c933b07fbd4e7782a523ecc04eaa9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

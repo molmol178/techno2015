@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{BDCBC526-6CB8-C113-86CB-BA9F2CA7AA26}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\1.title\GameObject.cs" />
+     <Compile Include="Assets\2.opening\GameObject2.cs" />
+     <Compile Include="Assets\4. select\GameObject4.cs" />
+     <Compile Include="Assets\5.song1\BadView.cs" />
+     <Compile Include="Assets\5.song1\Fall.cs" />
+     <Compile Include="Assets\5.song1\Fall1.cs" />
+     <Compile Include="Assets\5.song1\GameObject5.cs" />
+     <Compile Include="Assets\5.song1\GameObject6.cs" />
+     <Compile Include="Assets\5.song1\GoodA.cs" />
+     <Compile Include="Assets\5.song1\GoodA1.cs" />
+     <Compile Include="Assets\5.song1\GoodD.cs" />
+     <Compile Include="Assets\5.song1\GoodD1.cs" />
+     <Compile Include="Assets\5.song1\GoodF.cs" />
+     <Compile Include="Assets\5.song1\GoodF1.cs" />
+     <Compile Include="Assets\5.song1\GoodG.cs" />
+     <Compile Include="Assets\5.song1\GoodG1.cs" />
+     <Compile Include="Assets\5.song1\GoodH.cs" />
+     <Compile Include="Assets\5.song1\GoodH1.cs" />
+     <Compile Include="Assets\5.song1\GoodJ.cs" />
+     <Compile Include="Assets\5.song1\GoodJ1.cs" />
+     <Compile Include="Assets\5.song1\GoodK.cs" />
+     <Compile Include="Assets\5.song1\GoodK1.cs" />
+     <Compile Include="Assets\5.song1\GoodS.cs" />
+     <Compile Include="Assets\5.song1\GoodS1.cs" />
+     <Compile Include="Assets\5.song1\GoodView.cs" />
+     <Compile Include="Assets\5.song1\GreatA.cs" />
+     <Compile Include="Assets\5.song1\GreatA1.cs" />
+     <Compile Include="Assets\5.song1\GreatD.cs" />
+     <Compile Include="Assets\5.song1\GreatD1.cs" />
+     <Compile Include="Assets\5.song1\GreatF.cs" />
+     <Compile Include="Assets\5.song1\GreatF1.cs" />
+     <Compile Include="Assets\5.song1\GreatG.cs" />
+     <Compile Include="Assets\5.song1\GreatG1.cs" />
+     <Compile Include="Assets\5.song1\GreatH.cs" />
+     <Compile Include="Assets\5.song1\GreatH1.cs" />
+     <Compile Include="Assets\5.song1\GreatJ.cs" />
+     <Compile Include="Assets\5.song1\GreatJ1.cs" />
+     <Compile Include="Assets\5.song1\GreatK.cs" />
+     <Compile Include="Assets\5.song1\GreatK1.cs" />
+     <Compile Include="Assets\5.song1\GreatS.cs" />
+     <Compile Include="Assets\5.song1\GreatS1.cs" />
+     <Compile Include="Assets\5.song1\GreatView.cs" />
+     <Compile Include="Assets\5.song1\Remover.cs" />
+     <Compile Include="Assets\5.song1\Score.cs" />
+     <Compile Include="Assets\5.song1\ScoreShow.cs" />
+     <Compile Include="Assets\5.song1\Sound.cs" />
+     <Compile Include="Assets\5.song1\Sound1.cs" />
+     <Compile Include="Assets\5.song1\Spowner.cs" />
+     <Compile Include="Assets\5.song1\Spownerdemo.cs" />
+     <Compile Include="Assets\8.ending\GameObject7.cs" />
+     <Compile Include="Assets\Resources\MiniJSON.cs" />
+     <None Include="Assets\Resources\hard-kusikosu.txt" />
+     <None Include="Assets\Resources\easy-toruko.txt" />
+     <None Include="Assets\Resources\normal-kakumei.txt" />
+     <None Include="Assets\Resources\meto2out.txt" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
